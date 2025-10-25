@@ -4,5 +4,6 @@ A bunch of small JavaScript projects I’m building as I learn.
 
 
 ## Projects so far:
-- Calculator (work in progress)
+- Calculator_v1
+- Rock-Paper-Scissor_v1
   
