@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--Length Calculator-->
+<html>
+  <head>
+    <title>Exercise 7-g</title>
+    <p><B>Length calculator</B></p>
+  </head>
+    <body>
+      <script>
+        function convertlength(length, from, to) {
+          if (from === 'km' && to === 'mi') {
+            console.log(`Miles: ${(length * 0.621371).toFixed(3)}`);
+
+          } else if (from === 'km' && to === 'ft') {
+            console.log(`Ft: ${(length * 3280.84).toFixed(3)}`);
+          }
+          
+          else if (from === 'mi' && to === 'km') {
+            console.log(`Km: ${Math.round((length * 1.60934))}`);
+
+          } else if (from === 'mi' && to === 'ft') {
+            console.log(`Ft: ${(length * 5280 ).toFixed(3)} `)
+          }
+          
+          else if(from === 'ft' && to === 'km') {
+            console.log(`Km: ${(length *0.0003048).toFixed(3)}`);
+          } else if (from === 'ft' && to === 'mi') {
+            console.log(`Mi: ${(length/5280).toFixed(3)}`);
+          }
+          
+          else{
+            console.log('Invalid input. Example: convertlength(40, "mi", "km") or convertlength(40, "km", "ft")');
+          }
+        }
+        convertlength(50000,'ft','km');
+        convertlength(50, 'mi', 'km');
+        convertlength(10000, 'ft', 'mi');
+        </script>
+    </body>
+  </html>
