@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--Temprature calculator-->
+<html>
+  <head>
+    <title>Exercise 7-a</title>
+    <p><B>Temprature calculator</B></p>
+  </head>
+    <body>
+      <script>
+        function convertor(degrees, unit) {
+          if (unit === 'C') {
+            console.log(`°F: ${((degrees * 9)/5)+32}`);
+          } else if (unit === 'F') {
+            console.log(`°C: ${((degrees - 32) *5)/9 }`);
+          } else {
+            console.log('Please enter "C" for celsius or "F" for fahrenheit.');
+          }
+        }
+        convertor(25, 'C');
+        convertor(86);
+      </script>
+    </body>
+  </html>
