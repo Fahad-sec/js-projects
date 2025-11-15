@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--Final Version-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+     <p class="title">Rock Paper Scissors</p>
+    <button onclick="move('Rock');" class="move-button"><img src="images/Rock-emoji.png" class="move-icon"></button>
+
+    <button onclick="move('Paper');" class="move-button"><img src="images/Paper-emoji.png" class="move-icon"></button>
+
+    <button onclick="move('Scissors');" class="move-button"><img src="images/Scissors-emoji.png" class="move-icon"></button>
+
+    <p class="js-move">
+    </p>
+    <p class="js-score your-score"></p>
+    <p class="js-result your-result"></p>
+    
+    <button onclick="resetScore()" class="reset-button">Reset Score</button>
+    <script src="js/script.js"></script>
+  </body>
+</html>
