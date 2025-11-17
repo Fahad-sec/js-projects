@@ -1,6 +1,4 @@
 body {
-    margin: 0;
-    height: 100vh;
     background-color: rgb(0, 0, 0);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -46,8 +44,4 @@ body {
       background-color: rgb(255, 149, 0);
       cursor: pointer;
     }
-    .Calculator-container {
-     text-align: center;
-     width: 90%;
-     
     }
