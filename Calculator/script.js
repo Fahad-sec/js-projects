@@ -12,4 +12,9 @@
         localStorage.setItem('lastResult', draft);
         draft = String(draft);
       }
+
+      function remove() {
+        draft = draft.slice(0, -1);
+        document.querySelector('.js-display').innerHTML = `${draft}`|| 0;
+      }
       
