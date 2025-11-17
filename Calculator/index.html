@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style/css">
+</head>
+  <body>
+    <p class="js-display display"></p>
+    <p>
+      <button onclick="calc('1');" class="buttons">1</button>
+      <button onclick="calc('2');" class="buttons">2</button>
+      <button onclick="calc('3');" class="buttons">3</button>
+      <button onclick="calc('+');" class="side-buttons">+</button>
+    </p>
+
+    <p>
+      <button onclick="calc('4');" class="buttons">4</button>
+      <button onclick="calc('5');" class="buttons">5</button>
+      <button onclick="calc('6');" class="buttons">6</button>
+      <button onclick="calc('-');" class="side-buttons">-</button>
+    </p>
+
+    <p>
+      <button onclick="calc('7');" class="buttons">7</button>
+      <button onclick="calc('8');" class="buttons">8</button>
+      <button onclick="calc('9');" class="buttons">9</button>
+      <button onclick="calc('*');" class="side-buttons">*</button>   
+    </p>
+    
+    <p>
+      <button onclick="calc('0');" class="buttons">0</button>
+      <button onclick="calc('.');" class="buttons">.</button>
+      <button onclick="process();" class="buttons">=</button>
+      <button onclick="calc('/');" class="side-buttons">/</button>
+    </p>
+
+    <p>
+      <button onclick="
+      draft = '';
+      document.querySelector('.js-display').innerHTML = 0;
+      localStorage.removeItem('lastResult');
+      " class="clear-button">clear</button>
+
+    </p>
+    <script src="js"></script>
+  </body>
