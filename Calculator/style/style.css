@@ -8,6 +8,11 @@ body {
       padding-bottom: 20px;
       font-size: 30px;
       color: whitesmoke;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
       
     }
 
@@ -28,7 +33,6 @@ body {
       height: 50px;
       background-color: rgb(117, 117, 119);
       cursor: pointer;
-
     }
 
     .side-buttons {
@@ -39,5 +43,7 @@ body {
       height: 50px;
       background-color: rgb(255, 149, 0);
       cursor: pointer;
-
+    }
+    .Calculator-container {
+     text-align: center;
     }
